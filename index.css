@@ -25,6 +25,8 @@ img {
 body {
     background-color: #000;
     font-family: 'Source Sans Pro';
+        font-size: 16px;
+
 }
 
 
@@ -56,7 +58,7 @@ body {
 }
 
 .logo {
-        height: 100px;
+        height: 80px;
 
 }
 
@@ -64,8 +66,8 @@ body {
 
 .user-avatar, .post__avatar {
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     object-fit: cover;
 }
 
@@ -77,11 +79,12 @@ body {
     padding: 0.5em 1em;
 }
 .post__username {
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 0;
 }
 .post__location {
     margin-top: 0.2em;
+    font-size: 14px;
 
 }
 
@@ -131,9 +134,11 @@ body {
 }
 
 .post__likes {
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 0;
     padding-left: .5em;
+    font-size: 17px;
+
 
 }
 
